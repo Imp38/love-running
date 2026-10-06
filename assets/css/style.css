@@ -158,7 +158,7 @@ hr {
 
 #benefits-image {
     display: flex;
-    align-item: center;
+    align-items: center;
     justify-content: center;
 }
 
@@ -186,6 +186,16 @@ hr {
 #times h3 {
     /* Override the heading colour set in general style */
     color: #fafafa;
+}
+
+/* Gallery page */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
 }
 
 /* Footer */
